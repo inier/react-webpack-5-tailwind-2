@@ -3,6 +3,7 @@
 React 17 Boilerplate with React 17, Webpack 5, Tailwind 2, HMR, using babel, sass, with a hot dev server and an optimized production build
 
 ## Last Changes (the newest first):
+
 - added build-staging script. same as build but using .env.staging
 - added dotenv-webpack to handle process.env.VARS
 - added Prettier
@@ -27,7 +28,6 @@ yarn start / npm start
 You can view the development server at `localhost:3000`.
 (change port in ./config/webpack.dev.js)
 
-
 ### Production build
 
 ```bash
@@ -39,7 +39,7 @@ You can view the development server at `localhost:3000`.
 - [React 17](https://reactjs.org/)
 - [Webpack 5](https://webpack.js.org/)
 - [Tailwind 2](https://tailwindcss.com)
-- [PostCss](https://postcss.org/)  
+- [PostCss](https://postcss.org/)
 - [Babel](https://babeljs.io/)
 - [Sass](https://sass-lang.com/)
 - [Eslint](https://eslint.org/)
@@ -70,6 +70,7 @@ You can view the development server at `localhost:3000`.
 - [`style-loader`](https://webpack.js.org/loaders/style-loader/) - Inject CSS into the DOM
 
 ### Eslint
+
 - [`eslint-config-prettier`](https://www.npmjs.com/package/eslint-config-prettier) - Turns off all rules that are unnecessary or might conflict with Prettier.
 - [`eslint-import-resolver-alias`](https://www.npmjs.com/package/eslint-import-resolver-alias) - a simple Node behavior import resolution plugin for eslint-plugin-import, supporting module alias.
 - [`eslint-plugin-babel`](https://www.npmjs.com/package/eslint-plugin-babel) - an eslint rule plugin companion to babel-eslint.
@@ -77,7 +78,6 @@ You can view the development server at `localhost:3000`.
 - [`eslint-plugin-prettier`](https://www.npmjs.com/package/eslint-plugin-prettier) - Runs prettier as an eslint rule.
 - [`eslint-plugin-react`](https://www.npmjs.com/package/eslint-plugin-react) - React specific linting rules for ESLint.
 - [`eslint-plugin-react-hooks`](https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks) - Enforces the Rules of React Hooks.
-
 
 ### Plugins
 

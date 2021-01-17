@@ -18,6 +18,15 @@ module.exports = {
     publicPath: '/',
   },
 
+  resolve: {
+    extensions: ['.js', '.jsx', '.ts', '.tsx', '.scss', '.css', '.json'],
+    // 设置别名
+    alias: {
+      // 这样配置后 @ 可以指向 src 目录
+      '@': paths.src,
+    },
+  },
+
   // Customize the webpack build process
   plugins: [
     // Removes/cleans build folders and unused assets when rebuilding
